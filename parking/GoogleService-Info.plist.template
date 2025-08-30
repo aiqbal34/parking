@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 
+	This is a template file. You need to:
+	
+	1. Go to Firebase Console (https://console.firebase.google.com/)
+	2. Create a new project or select existing one
+	3. Add an iOS app to your project
+	4. Download the actual GoogleService-Info.plist file
+	5. Replace this template with the downloaded file
+	6. Add the file to your Xcode project
+	
+	The actual file will contain your Firebase project configuration including:
+	- API_KEY
+	- BUNDLE_ID
+	- CLIENT_ID
+	- REVERSED_CLIENT_ID
+	- PROJECT_ID
+	- STORAGE_BUCKET
+	- GOOGLE_APP_ID
+	- GCM_SENDER_ID
+	- PLIST_VERSION
+	- DATABASE_URL (if using Realtime Database)
+	-->
+	
+	<key>API_KEY</key>
+	<string>YOUR_API_KEY_HERE</string>
+	
+	<key>BUNDLE_ID</key>
+	<string>com.yourcompany.parking</string>
+	
+	<key>CLIENT_ID</key>
+	<string>YOUR_CLIENT_ID_HERE</string>
+	
+	<key>REVERSED_CLIENT_ID</key>
+	<string>YOUR_REVERSED_CLIENT_ID_HERE</string>
+	
+	<key>PROJECT_ID</key>
+	<string>YOUR_PROJECT_ID_HERE</string>
+	
+	<key>STORAGE_BUCKET</key>
+	<string>YOUR_PROJECT_ID_HERE.appspot.com</string>
+	
+	<key>GOOGLE_APP_ID</key>
+	<string>YOUR_GOOGLE_APP_ID_HERE</string>
+	
+	<key>GCM_SENDER_ID</key>
+	<string>YOUR_GCM_SENDER_ID_HERE</string>
+	
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	
+	<key>GOOGLE_SIGNIN_OPTIONS</key>
+	<string></string>
+</dict>
+</plist>
