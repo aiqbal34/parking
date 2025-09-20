@@ -129,7 +129,8 @@ struct SpotDetailView: View {
                                         Text("Start Time")
                                             .font(.subheadline)
                                             .foregroundColor(.secondary)
-                                        
+                                        let now = Date()
+                                        let startRangeEnd = spot.availabilityEnd.addingTimeInterval(-3600) // At least 1 hour before end
                                         DatePicker("", selection: $selectedStartTime, in: Date()...spot.availabilityEnd)
                                             .datePickerStyle(CompactDatePickerStyle())
                                     }
